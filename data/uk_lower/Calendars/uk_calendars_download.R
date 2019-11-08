@@ -26,7 +26,7 @@ setwd("~/GitHub/CompLegFall2019/data/uk_lower/Calendars")
 dates <- character(0)
 
 # Loop thru dates
-for (yr in 1990:1990) {
+for (yr in 1990:2019) {
   for (mon in 1:12) {
     for (da in 1:31) {
       
@@ -65,3 +65,4 @@ for (yr in 1990:1990) {
   }
 }
 
+write.csv(dates,"uk_lower_calendar.csv")
