@@ -139,8 +139,9 @@ mem <- ship %>%
   mutate(chamber_path = paste0(parliament_path,chamber_path1)) %>%
   mutate(member_path = paste0(parliament_path,member_path1)) %>%
   mutate(observation_path = member_path) %>%
+  mutate(constituency_ID1 = paste0(constituency_ID,parliament_path)) %>%
   select("observation_path", "parliament_path", "chamber_path", "member_path", "observation_number", "parliament_number", "chamber_number", "member_number",
-         "chamber_name", "full_name", "first_name", "last_name", "member_ID", "constituency_name", "constituency_ID", "party_name", "start_date", "end_date")
+         "chamber_name", "full_name", "first_name", "last_name", "member_ID", "constituency_name", constituency_ID = "constituency_ID1", "party_name", "start_date", "end_date")
 
 # Output
 write.csv(mem, "uk_lower_chamber_membership.csv")
