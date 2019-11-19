@@ -144,4 +144,5 @@ mem <- ship %>%
          "chamber_name", "full_name", "first_name", "last_name", "member_ID", "constituency_name", constituency_ID = "constituency_ID1", "party_name", "start_date", "end_date")
 
 # Output
+setwd("~/GitHub/CompLegFall2019/data/uk_lower/Membership")
 write.csv(mem, "uk_lower_chamber_membership.csv")
