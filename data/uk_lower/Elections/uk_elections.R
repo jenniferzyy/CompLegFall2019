@@ -61,11 +61,28 @@ for (i in 1:nrow(term)){
 
 # Read constituency ID from previous dataset
 cons <- read.csv("../Constituencies/uk_lower_constituencies.csv", stringsAsFactors = F) %>%
-  select(constituency_name,constituency_path)
+  select(constituency_name,constituency_path,constituency_number,parliament_path)
 
 # Merge constituency ID
 el <- merge(ele,cons,by = "constituency_name") %>%
   distinct() %>%
   filter(election!="")%>%
   group_by(election) %>%
-  dplyr::mutate(election_number = group_indices())
+  dplyr::mutate(election_number = group_indices())%>%
+  mutate(election_path = paste0("/election-",election_number,constituency_path)) %>%
+  arrange(election_number,constituency_number) %>%
+  mutate(observation_number = 1:length(election_number)) %>%
+  mutate(observation_path = election_path)
+
+# Rearrange columns
+e <- el %>%
+  select(observation_path, election_path, constituency_path,
+         observation_number, election_number, constituency_number,
+         election_year = election,
+         constituency_name, constituency_ID = parliament_path,
+         country_name = country.region, electorate, seats, uncontested = Unconsted,
+         con_votes, con_share, lib_votes, lib_share, lab_votes, lab_share, natSW_votes, natSW_share, oth_votes, oth_share,
+         total_votes, turnout)
+
+# Output
+write.csv(e, "uk_lower_elections.csv")
