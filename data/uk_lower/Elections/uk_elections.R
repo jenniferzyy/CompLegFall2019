@@ -23,7 +23,7 @@ lapply(c("stringr", "dplyr", "plyr", "tidyverse", "rvest", "zoo", "lubridate", "
 setwd("~/GitHub/CompLegFall2019/data/uk_lower/Elections")
 
 # Read downloaded data
-elec <- read_csv("1918-2017election_results.csv")
+elec <- read.csv("1918-2017election_results.csv",stringsAsFactors = F)
 
 # Function for capitalizing the first letter or each word
 CapStr <- function(y) {
@@ -42,12 +42,16 @@ ele <- elec %>%
   mutate(Unconsted = as.numeric(total_votes<0)) %>%
   #mutate(constituency=replace(constituency,constituency ==constituency[15097], "Ynys Môn")) %>%
   mutate(constituency_name = capitalize_str(constituency))
+ele$constituency_id <- NULL
+ele$X <- NULL
+ele$constituency <- NULL
+
+# Change negative votes of uncontested back into zero
 ele$total_votes[is.na(ele$turnout)] <- 0
 ele$turnout[is.na(ele$turnout)] <- 0
-# ele$constituency[15097] <- "Ynys Môn"
-ele$constituency_id <- NULL
-ele$X20 <- NULL
-ele$constituency <- NULL
+ele$con_votes[ele$con_votes<0] <- 0
+ele$lab_votes[ele$lab_votes<0] <- 0
+ele$oth_votes[ele$oth_votes<0] <- 0
 
 # Reformat constituency for better merge
 term <- rbind(c("&","and"),c("And","and"),c("Of","of"))
@@ -56,9 +60,12 @@ for (i in 1:nrow(term)){
 }
 
 # Read constituency ID from previous dataset
-cons <- read_csv("../Constituencies/uk_lower_constituencies.csv") %>%
+cons <- read.csv("../Constituencies/uk_lower_constituencies.csv", stringsAsFactors = F) %>%
   select(constituency_name,constituency_path)
 
 # Merge constituency ID
-check <- merge(ele,cons,by = "constituency_name", all = T) %>%
-  distinct()
+el <- merge(ele,cons,by = "constituency_name") %>%
+  distinct() %>%
+  filter(election!="")%>%
+  group_by(election) %>%
+  dplyr::mutate(election_number = group_indices())
