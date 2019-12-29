@@ -82,8 +82,26 @@ out$parliament_number[out$date_char<="2005-05-05"]=53
 # save temporary result (in case of R session termination)
 # write.csv(out,"temp.csv")
 
+# data cleaning and reformat
 out_div <- out %>%
   mutate(parliament_path = paste0("/parliament-",parliament_number)) %>%
+  mutate(chamber_number=1) %>%
+  arrange(date) %>%
+  mutate(parliament_number = as.factor(parliament_number)) %>%
   group_by(parliament_number) %>%
-  arrange(session_date) %>%
-  mutate(session_number = 1:length(parliament_number))
+  dplyr::mutate(session_number = row_number()) %>%
+  mutate(session_path = paste0(parliament_path, "/session-", session_number)) %>%
+  mutate(chamber_path = paste0(session_path,"/chamber-",chamber_number)) %>%
+  mutate(division_path = paste0(chamber_path,"/division-",division_number)) %>%
+  mutate(observation_path = division_path) %>%
+  arrange(parliament_number, session_number, chamber_number, division_number) %>%
+  mutate(observation_number = 1:nrow(out))
+
+# select columns for final output  
+uk_div <- out_div %>%
+  select(observation_path, parliament_path, session_path, chamber_path, division_path,
+         observation_number, parliament_number, session_number, chamber_number, division_number,
+         division_date = date_char, bill_ID, result, yea, nay)
+
+# data output
+write.csv(uk_div, "uk_lower_divisions.csv")
