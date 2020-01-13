@@ -42,7 +42,7 @@ result = 0
 bill_ID = 0
 
 # Call API
-for (i in 1724:length(id)) {
+for (i in 1:length(id)) {
   content <- xmlToList(xmlParse(link[i]))[[3]]
   yea[i] <- as.numeric(content[[3]][[1]])
   nay[i] <- as.numeric(content[[8]][[1]])

@@ -1,0 +1,2104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<result format="linked-data-api"
+        href="http://eldaddp.azurewebsites.net/commonsdivisions/865099.xml"
+        version="0.2">
+   <definition href="http://eldaddp.azurewebsites.net/meta/commonsdivisions/_ddpid.xml"/>
+   <extendedMetadataVersion href="http://eldaddp.azurewebsites.net/commonsdivisions/865099.xml?_metadata=all"/>
+   <primaryTopic href="http://data.parliament.uk/resources/865099">
+      <isPrimaryTopicOf href="http://eldaddp.azurewebsites.net/commonsdivisions/865099.xml"/>
+      <AbstainCount>
+         <item>0</item>
+      </AbstainCount>
+      <AyesCount>
+         <item>129</item>
+      </AyesCount>
+      <DeferredVote datatype="boolean">false</DeferredVote>
+      <Didnotvotecount>
+         <item>0</item>
+      </Didnotvotecount>
+      <Errorvotecount>
+         <item>0</item>
+      </Errorvotecount>
+      <Margin>
+         <item>87</item>
+      </Margin>
+      <Noesvotecount>
+         <item>42</item>
+      </Noesvotecount>
+      <Noneligiblecount>
+         <item>0</item>
+      </Noneligiblecount>
+      <Suspendedorexpelledvotescount>
+         <item>0</item>
+      </Suspendedorexpelledvotescount>
+      <date datatype="dateTime">2018-03-16</date>
+      <divisionNumber>133</divisionNumber>
+      <legislature>
+         <item href="http://data.parliament.uk/terms/25259"/>
+      </legislature>
+      <session>
+         <item>2017/19</item>
+         <item href="http://data.parliament.uk/resources/730830"/>
+      </session>
+      <title>Refugees (Family Reunion) (No.2) Bill: Second Reading: Closure motion</title>
+      <uin>CD:2018-03-16:400</uin>
+      <vote>
+         <item href="http://data.parliament.uk/resources/865099/vote/1">
+            <member>
+               <item href="http://data.parliament.uk/members/4082">
+                  <label>Biography information for Lisa Nandy</label>
+               </item>
+            </member>
+            <memberParty>Labour</memberParty>
+            <memberPrinted>Lisa Nandy</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/10">
+            <member>
+               <item href="http://data.parliament.uk/members/161">
+                  <label>Biography information for Stephen Pound</label>
+               </item>
+            </member>
+            <memberParty>Labour</memberParty>
+            <memberPrinted>Stephen Pound</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/100">
+            <member>
+               <item href="http://data.parliament.uk/members/4400">
+                  <label>Biography information for Margaret Greenwood</label>
+               </item>
+            </member>
+            <memberParty>Labour</memberParty>
+            <memberPrinted>Margaret Greenwood</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/101">
+            <member>
+               <item href="http://data.parliament.uk/members/1506">
+                  <label>Biography information for Andrew Gwynne</label>
+               </item>
+            </member>
+            <memberParty>Labour</memberParty>
+            <memberPrinted>Andrew Gwynne</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/102">
+            <member>
+               <item href="http://data.parliament.uk/members/4473">
+                  <label>Biography information for Louise Haigh</label>
+               </item>
+            </member>
+            <memberParty>Labour</memberParty>
+            <memberPrinted>Louise Haigh</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/103">
+            <member>
+               <item href="http://data.parliament.uk/members/4480">
+                  <label>Biography information for Carolyn Harris</label>
+               </item>
+            </member>
+            <memberParty>Labour</memberParty>
+            <memberPrinted>Carolyn Harris</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/104">
+            <member>
+               <item href="http://data.parliament.uk/members/4510">
+                  <label>Biography information for Helen Hayes</label>
+               </item>
+            </member>
+            <memberParty>Labour</memberParty>
+            <memberPrinted>Helen Hayes</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/105">
+            <member>
+               <item href="http://data.parliament.uk/members/4467">
+                  <label>Biography information for Drew Hendry</label>
+               </item>
+            </member>
+            <memberParty>Scottish National Party</memberParty>
+            <memberPrinted>Drew Hendry</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/106">
+            <member>
+               <item href="http://data.parliament.uk/members/1521">
+                  <label>Biography information for Mrs Sharon Hodgson</label>
+               </item>
+            </member>
+            <memberParty>Labour</memberParty>
+            <memberPrinted>Mrs Sharon Hodgson</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/107">
+            <member>
+               <item href="http://data.parliament.uk/members/1514">
+                  <label>Biography information for Stewart Hosie</label>
+               </item>
+            </member>
+            <memberParty>Scottish National Party</memberParty>
+            <memberPrinted>Stewart Hosie</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/108">
+            <member>
+               <item href="http://data.parliament.uk/members/4511">
+                  <label>Biography information for Dr Rupa Huq</label>
+               </item>
+            </member>
+            <memberParty>Labour</memberParty>
+            <memberPrinted>Dr Rupa Huq</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/109">
+            <member>
+               <item href="http://data.parliament.uk/members/4631">
+                  <label>Biography information for Sarah Jones</label>
+               </item>
+            </member>
+            <memberParty>Labour</memberParty>
+            <memberPrinted>Sarah Jones</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/11">
+            <member>
+               <item href="http://data.parliament.uk/members/3924">
+                  <label>Biography information for Yasmin Qureshi</label>
+               </item>
+            </member>
+            <memberParty>Labour</memberParty>
+            <memberPrinted>Yasmin Qureshi</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/110">
+            <member>
+               <item href="http://data.parliament.uk/members/4026">
+                  <label>Biography information for Liz Kendall</label>
+               </item>
+            </member>
+            <memberParty>Labour</memberParty>
+            <memberPrinted>Liz Kendall</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/111">
+            <member>
+               <item href="http://data.parliament.uk/members/4671">
+                  <label>Biography information for Afzal Khan</label>
+               </item>
+            </member>
+            <memberParty>Labour</memberParty>
+            <memberPrinted>Afzal Khan</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/112">
+            <member>
+               <item href="http://data.parliament.uk/members/4672">
+                  <label>Biography information for Ged Killen</label>
+               </item>
+            </member>
+            <memberParty>Labour (Co-op)</memberParty>
+            <memberPrinted>Ged Killen</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/113">
+            <member>
+               <item href="http://data.parliament.uk/members/4660">
+                  <label>Biography information for Lesley Laird</label>
+               </item>
+            </member>
+            <memberParty>Labour</memberParty>
+            <memberPrinted>Lesley Laird</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/114">
+            <member>
+               <item href="http://data.parliament.uk/members/206">
+                  <label>Biography information for Mr David Lammy</label>
+               </item>
+            </member>
+            <memberParty>Labour</memberParty>
+            <memberPrinted>Mr David Lammy</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/115">
+            <member>
+               <item href="http://data.parliament.uk/members/4403">
+                  <label>Biography information for Chris Law</label>
+               </item>
+            </member>
+            <memberParty>Scottish National Party</memberParty>
+            <memberPrinted>Chris Law</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/116">
+            <member>
+               <item href="http://data.parliament.uk/members/4664">
+                  <label>Biography information for Karen Lee</label>
+               </item>
+            </member>
+            <memberParty>Labour</memberParty>
+            <memberPrinted>Karen Lee</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/117">
+            <member>
+               <item href="http://data.parliament.uk/members/1546">
+                  <label>Biography information for Angus Brendan MacNeil</label>
+               </item>
+            </member>
+            <memberParty>Scottish National Party</memberParty>
+            <memberPrinted>Angus Brendan MacNeil</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/118">
+            <member>
+               <item href="http://data.parliament.uk/members/4418">
+                  <label>Biography information for Justin Madders</label>
+               </item>
+            </member>
+            <memberParty>Labour</memberParty>
+            <memberPrinted>Justin Madders</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/119">
+            <member>
+               <item href="http://data.parliament.uk/members/465">
+                  <label>Biography information for Gordon Marsden</label>
+               </item>
+            </member>
+            <memberParty>Labour</memberParty>
+            <memberPrinted>Gordon Marsden</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/12">
+            <member>
+               <item href="http://data.parliament.uk/members/4268">
+                  <label>Biography information for Mr Steve Reed</label>
+               </item>
+            </member>
+            <memberParty>Labour (Co-op)</memberParty>
+            <memberPrinted>Mr Steve Reed</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/120">
+            <member>
+               <item href="http://data.parliament.uk/members/4678">
+                  <label>Biography information for Sandy Martin</label>
+               </item>
+            </member>
+            <memberParty>Labour</memberParty>
+            <memberPrinted>Sandy Martin</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/121">
+            <member>
+               <item href="http://data.parliament.uk/members/298">
+                  <label>Biography information for Steve McCabe</label>
+               </item>
+            </member>
+            <memberParty>Labour</memberParty>
+            <memberPrinted>Steve McCabe</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/122">
+            <member>
+               <item href="http://data.parliament.uk/members/1491">
+                  <label>Biography information for Kerry McCarthy</label>
+               </item>
+            </member>
+            <memberParty>Labour</memberParty>
+            <memberPrinted>Kerry McCarthy</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/123">
+            <member>
+               <item href="http://data.parliament.uk/members/4461">
+                  <label>Biography information for Stewart Malcolm McDonald</label>
+               </item>
+            </member>
+            <memberParty>Scottish National Party</memberParty>
+            <memberPrinted>Stewart Malcolm McDonald</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/124">
+            <member>
+               <item href="http://data.parliament.uk/members/4393">
+                  <label>Biography information for Stuart C McDonald</label>
+               </item>
+            </member>
+            <memberParty>Scottish National Party</memberParty>
+            <memberPrinted>Stuart C. McDonald</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/125">
+            <member>
+               <item href="http://data.parliament.uk/members/178">
+                  <label>Biography information for John McDonnell</label>
+               </item>
+            </member>
+            <memberParty>Labour</memberParty>
+            <memberPrinted>John McDonnell</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/126">
+            <member>
+               <item href="http://data.parliament.uk/members/4458">
+                  <label>Biography information for Conor McGinn</label>
+               </item>
+            </member>
+            <memberParty>Labour</memberParty>
+            <memberPrinted>Conor McGinn</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/127">
+            <member>
+               <item href="http://data.parliament.uk/members/4083">
+                  <label>Biography information for Alison McGovern</label>
+               </item>
+            </member>
+            <memberParty>Labour</memberParty>
+            <memberPrinted>Alison McGovern</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/128">
+            <member>
+               <item href="http://data.parliament.uk/members/4443">
+                  <label>Biography information for Carol Monaghan</label>
+               </item>
+            </member>
+            <memberParty>Scottish National Party</memberParty>
+            <memberPrinted>Carol Monaghan</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/129">
+            <member>
+               <item href="http://data.parliament.uk/members/4656">
+                  <label>Biography information for Layla Moran</label>
+               </item>
+            </member>
+            <memberParty>Liberal Democrat</memberParty>
+            <memberPrinted>Layla Moran</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/13">
+            <member>
+               <item href="http://data.parliament.uk/members/4620">
+                  <label>Biography information for Ellie Reeves</label>
+               </item>
+            </member>
+            <memberParty>Labour</memberParty>
+            <memberPrinted>Ellie Reeves</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/130">
+            <member>
+               <item href="http://data.parliament.uk/members/4450">
+                  <label>Biography information for Luke Hall</label>
+               </item>
+            </member>
+            <memberParty>Conservative</memberParty>
+            <memberPrinted>Luke Hall</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#NoVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/131">
+            <member>
+               <item href="http://data.parliament.uk/members/3948">
+                  <label>Biography information for Rebecca Harris</label>
+               </item>
+            </member>
+            <memberParty>Conservative</memberParty>
+            <memberPrinted>Rebecca Harris</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#NoVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/132">
+            <member>
+               <item href="http://data.parliament.uk/members/3977">
+                  <label>Biography information for Chris Heaton-Harris</label>
+               </item>
+            </member>
+            <memberParty>Conservative</memberParty>
+            <memberPrinted>Chris Heaton-Harris</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#NoVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/133">
+            <member>
+               <item href="http://data.parliament.uk/members/3969">
+                  <label>Biography information for Damian Hinds</label>
+               </item>
+            </member>
+            <memberParty>Conservative</memberParty>
+            <memberPrinted>Mr Damian Hinds</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#NoVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/134">
+            <member>
+               <item href="http://data.parliament.uk/members/1537">
+                  <label>Biography information for Mr Philip Hollobone</label>
+               </item>
+            </member>
+            <memberParty>Conservative</memberParty>
+            <memberPrinted>Mr Philip Hollobone</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#NoVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/135">
+            <member>
+               <item href="http://data.parliament.uk/members/4498">
+                  <label>Biography information for Mr Ranil Jayawardena</label>
+               </item>
+            </member>
+            <memberParty>Conservative</memberParty>
+            <memberPrinted>Mr Ranil Jayawardena</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#NoVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/136">
+            <member>
+               <item href="http://data.parliament.uk/members/3989">
+                  <label>Biography information for Jack Lopresti</label>
+               </item>
+            </member>
+            <memberParty>Conservative</memberParty>
+            <memberPrinted>Jack Lopresti</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#NoVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/137">
+            <member>
+               <item href="http://data.parliament.uk/members/4495">
+                  <label>Biography information for Kit Malthouse</label>
+               </item>
+            </member>
+            <memberParty>Conservative</memberParty>
+            <memberPrinted>Kit Malthouse</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#NoVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/138">
+            <member>
+               <item href="http://data.parliament.uk/members/3926">
+                  <label>Biography information for Paul Maynard</label>
+               </item>
+            </member>
+            <memberParty>Conservative</memberParty>
+            <memberPrinted>Paul Maynard</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#NoVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/139">
+            <member>
+               <item href="http://data.parliament.uk/members/4442">
+                  <label>Biography information for Huw Merriman</label>
+               </item>
+            </member>
+            <memberParty>Conservative</memberParty>
+            <memberPrinted>Huw Merriman</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#NoVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/14">
+            <member>
+               <item href="http://data.parliament.uk/members/4654">
+                  <label>Biography information for Matt Rodda</label>
+               </item>
+            </member>
+            <memberParty>Labour</memberParty>
+            <memberPrinted>Matt Rodda</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/140">
+            <member>
+               <item href="http://data.parliament.uk/members/4454">
+                  <label>Biography information for Amanda Milling</label>
+               </item>
+            </member>
+            <memberParty>Conservative</memberParty>
+            <memberPrinted>Amanda Milling</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#NoVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/141">
+            <member>
+               <item href="http://data.parliament.uk/members/4135">
+                  <label>Biography information for David Morris</label>
+               </item>
+            </member>
+            <memberParty>Conservative</memberParty>
+            <memberPrinted>David Morris</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#NoVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/142">
+            <member>
+               <item href="http://data.parliament.uk/members/4048">
+                  <label>Biography information for Caroline Nokes</label>
+               </item>
+            </member>
+            <memberParty>Conservative</memberParty>
+            <memberPrinted>Caroline Nokes</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#NoVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/143">
+            <member>
+               <item href="http://data.parliament.uk/members/4142">
+                  <label>Biography information for Guy Opperman</label>
+               </item>
+            </member>
+            <memberParty>Conservative</memberParty>
+            <memberPrinted>Guy Opperman</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#NoVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/144">
+            <member>
+               <item href="http://data.parliament.uk/members/4503">
+                  <label>Biography information for Chris Philp</label>
+               </item>
+            </member>
+            <memberParty>Conservative</memberParty>
+            <memberPrinted>Chris Philp</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#NoVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/145">
+            <member>
+               <item href="http://data.parliament.uk/members/4075">
+                  <label>Biography information for Christopher Pincher</label>
+               </item>
+            </member>
+            <memberParty>Conservative</memberParty>
+            <memberPrinted>Christopher Pincher</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#NoVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/146">
+            <member>
+               <item href="http://data.parliament.uk/members/4522">
+                  <label>Biography information for Rebecca Pow</label>
+               </item>
+            </member>
+            <memberParty>Conservative</memberParty>
+            <memberPrinted>Rebecca Pow</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#NoVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/147">
+            <member>
+               <item href="http://data.parliament.uk/members/4369">
+                  <label>Biography information for Tom Pursglove</label>
+               </item>
+            </member>
+            <memberParty>Conservative</memberParty>
+            <memberPrinted>Tom Pursglove</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#NoVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/148">
+            <member>
+               <item href="http://data.parliament.uk/members/4507">
+                  <label>Biography information for Jeremy Quin</label>
+               </item>
+            </member>
+            <memberParty>Conservative</memberParty>
+            <memberPrinted>Jeremy Quin</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#NoVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/149">
+            <member>
+               <item href="http://data.parliament.uk/members/4423">
+                  <label>Biography information for Will Quince</label>
+               </item>
+            </member>
+            <memberParty>Conservative</memberParty>
+            <memberPrinted>Will Quince</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#NoVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/15">
+            <member>
+               <item href="http://data.parliament.uk/members/4628">
+                  <label>Biography information for Danielle Rowley</label>
+               </item>
+            </member>
+            <memberParty>Labour</memberParty>
+            <memberPrinted>Danielle Rowley</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/150">
+            <member>
+               <item href="http://data.parliament.uk/members/4406">
+                  <label>Biography information for Mary Robinson</label>
+               </item>
+            </member>
+            <memberParty>Conservative</memberParty>
+            <memberPrinted>Mary Robinson</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#NoVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/151">
+            <member>
+               <item href="http://data.parliament.uk/members/4044">
+                  <label>Biography information for Andrew Stephenson</label>
+               </item>
+            </member>
+            <memberParty>Conservative</memberParty>
+            <memberPrinted>Andrew Stephenson</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#NoVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/152">
+            <member>
+               <item href="http://data.parliament.uk/members/3919">
+                  <label>Biography information for Bob Stewart</label>
+               </item>
+            </member>
+            <memberParty>Conservative</memberParty>
+            <memberPrinted>Bob Stewart</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#NoVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/153">
+            <member>
+               <item href="http://data.parliament.uk/members/4483">
+                  <label>Biography information for Rishi Sunak</label>
+               </item>
+            </member>
+            <memberParty>Conservative</memberParty>
+            <memberPrinted>Rishi Sunak</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#NoVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/154">
+            <member>
+               <item href="http://data.parliament.uk/members/4497">
+                  <label>Biography information for Michael Tomlinson</label>
+               </item>
+            </member>
+            <memberParty>Conservative</memberParty>
+            <memberPrinted>Michael Tomlinson</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#NoVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/155">
+            <member>
+               <item href="http://data.parliament.uk/members/4526">
+                  <label>Biography information for David Warburton</label>
+               </item>
+            </member>
+            <memberParty>Conservative</memberParty>
+            <memberPrinted>David Warburton</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#NoVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/156">
+            <member>
+               <item href="http://data.parliament.uk/members/4362">
+                  <label>Biography information for Edward Argar</label>
+               </item>
+            </member>
+            <memberParty>Conservative</memberParty>
+            <memberPrinted>Edward Argar</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#NoVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/157">
+            <member>
+               <item href="http://data.parliament.uk/members/4064">
+                  <label>Biography information for Mr Steve Baker</label>
+               </item>
+            </member>
+            <memberParty>Conservative</memberParty>
+            <memberPrinted>Mr Steve Baker</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#NoVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/158">
+            <member>
+               <item href="http://data.parliament.uk/members/3910">
+                  <label>Biography information for Guto Bebb</label>
+               </item>
+            </member>
+            <memberParty>Conservative</memberParty>
+            <memberPrinted>Guto Bebb</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#NoVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/159">
+            <member>
+               <item href="http://data.parliament.uk/members/4601">
+                  <label>Biography information for Andrew Bowie</label>
+               </item>
+            </member>
+            <memberParty>Conservative</memberParty>
+            <memberPrinted>Andrew Bowie</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#NoVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/16">
+            <member>
+               <item href="http://data.parliament.uk/members/4615">
+                  <label>Biography information for Lloyd Russell-Moyle</label>
+               </item>
+            </member>
+            <memberParty>Labour (Co-op)</memberParty>
+            <memberPrinted>Lloyd Russell-Moyle</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/160">
+            <member>
+               <item href="http://data.parliament.uk/members/1201">
+                  <label>Biography information for Alistair Burt</label>
+               </item>
+            </member>
+            <memberParty>Conservative</memberParty>
+            <memberPrinted>Alistair Burt</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#NoVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/161">
+            <member>
+               <item href="http://data.parliament.uk/members/3950">
+                  <label>Biography information for Tracey Crouch</label>
+               </item>
+            </member>
+            <memberParty>Conservative</memberParty>
+            <memberPrinted>Tracey Crouch</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#NoVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/162">
+            <member>
+               <item href="http://data.parliament.uk/members/4513">
+                  <label>Biography information for Mims Davies</label>
+               </item>
+            </member>
+            <memberParty>Conservative</memberParty>
+            <memberPrinted>Mims Davies</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#NoVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/163">
+            <member>
+               <item href="http://data.parliament.uk/members/4008">
+                  <label>Biography information for Caroline Dinenage</label>
+               </item>
+            </member>
+            <memberParty>Conservative</memberParty>
+            <memberPrinted>Caroline Dinenage</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#NoVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/164">
+            <member>
+               <item href="http://data.parliament.uk/members/4530">
+                  <label>Biography information for Michelle Donelan</label>
+               </item>
+            </member>
+            <memberParty>Conservative</memberParty>
+            <memberPrinted>Michelle Donelan</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#NoVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/165">
+            <member>
+               <item href="http://data.parliament.uk/members/4441">
+                  <label>Biography information for Oliver Dowden</label>
+               </item>
+            </member>
+            <memberParty>Conservative</memberParty>
+            <memberPrinted>Oliver Dowden</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#NoVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/166">
+            <member>
+               <item href="http://data.parliament.uk/members/3934">
+                  <label>Biography information for George Eustice</label>
+               </item>
+            </member>
+            <memberParty>Conservative</memberParty>
+            <memberPrinted>George Eustice</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#NoVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/167">
+            <member>
+               <item href="http://data.parliament.uk/members/4451">
+                  <label>Biography information for Kevin Foster</label>
+               </item>
+            </member>
+            <memberParty>Conservative</memberParty>
+            <memberPrinted>Kevin Foster</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#NoVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/168">
+            <member>
+               <item href="http://data.parliament.uk/members/4517">
+                  <label>Biography information for Lucy Frazer</label>
+               </item>
+            </member>
+            <memberParty>Conservative</memberParty>
+            <memberPrinted>Lucy Frazer</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#NoVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/169">
+            <member>
+               <item href="http://data.parliament.uk/members/111">
+                  <label>Biography information for Nick Gibb</label>
+               </item>
+            </member>
+            <memberParty>Conservative</memberParty>
+            <memberPrinted>Nick Gibb</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#NoVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/17">
+            <member>
+               <item href="http://data.parliament.uk/members/4521">
+                  <label>Biography information for Liz Saville Roberts</label>
+               </item>
+            </member>
+            <memberParty>Plaid Cymru</memberParty>
+            <memberPrinted>Liz Saville Roberts</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/170">
+            <member>
+               <item href="http://data.parliament.uk/members/4398">
+                  <label>Biography information for Chris Green</label>
+               </item>
+            </member>
+            <memberParty>Conservative</memberParty>
+            <memberPrinted>Chris Green</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#NoVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/171">
+            <member>
+               <item href="http://data.parliament.uk/members/3936">
+                  <label>Biography information for Andrew Griffiths</label>
+               </item>
+            </member>
+            <memberParty>Conservative</memberParty>
+            <memberPrinted>Andrew Griffiths</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#NoVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/18">
+            <member>
+               <item href="http://data.parliament.uk/members/4453">
+                  <label>Biography information for Tommy Sheppard</label>
+               </item>
+            </member>
+            <memberParty>Scottish National Party</memberParty>
+            <memberPrinted>Tommy Sheppard</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/19">
+            <member>
+               <item href="http://data.parliament.uk/members/4013">
+                  <label>Biography information for Mr Gavin Shuker</label>
+               </item>
+            </member>
+            <memberParty>Labour (Co-op)</memberParty>
+            <memberPrinted>Mr Gavin Shuker</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/2">
+            <member>
+               <item href="http://data.parliament.uk/members/1601">
+                  <label>Biography information for Sir Robert Neill</label>
+               </item>
+            </member>
+            <memberParty>Conservative</memberParty>
+            <memberPrinted>Robert Neill</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/20">
+            <member>
+               <item href="http://data.parliament.uk/members/1516">
+                  <label>Biography information for Andy Slaughter</label>
+               </item>
+            </member>
+            <memberParty>Labour</memberParty>
+            <memberPrinted>Andy Slaughter</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/21">
+            <member>
+               <item href="http://data.parliament.uk/members/4436">
+                  <label>Biography information for Cat Smith</label>
+               </item>
+            </member>
+            <memberParty>Labour</memberParty>
+            <memberPrinted>Cat Smith</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/22">
+            <member>
+               <item href="http://data.parliament.uk/members/4609">
+                  <label>Biography information for Eleanor Smith</label>
+               </item>
+            </member>
+            <memberParty>Labour</memberParty>
+            <memberPrinted>Eleanor Smith</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/23">
+            <member>
+               <item href="http://data.parliament.uk/members/3960">
+                  <label>Biography information for Henry Smith</label>
+               </item>
+            </member>
+            <memberParty>Conservative</memberParty>
+            <memberPrinted>Henry Smith</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/24">
+            <member>
+               <item href="http://data.parliament.uk/members/4658">
+                  <label>Biography information for Alex Sobel</label>
+               </item>
+            </member>
+            <memberParty>Labour (Co-op)</memberParty>
+            <memberPrinted>Alex Sobel</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/25">
+            <member>
+               <item href="http://data.parliament.uk/members/3938">
+                  <label>Biography information for Anna Soubry</label>
+               </item>
+            </member>
+            <memberParty>Conservative</memberParty>
+            <memberPrinted>Anna Soubry</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/26">
+            <member>
+               <item href="http://data.parliament.uk/members/4463">
+                  <label>Biography information for Chris Stephens</label>
+               </item>
+            </member>
+            <memberParty>Scottish National Party</memberParty>
+            <memberPrinted>Chris Stephens</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/27">
+            <member>
+               <item href="http://data.parliament.uk/members/4425">
+                  <label>Biography information for Jo Stevens</label>
+               </item>
+            </member>
+            <memberParty>Labour</memberParty>
+            <memberPrinted>Jo Stevens</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/28">
+            <member>
+               <item href="http://data.parliament.uk/members/4504">
+                  <label>Biography information for Wes Streeting</label>
+               </item>
+            </member>
+            <memberParty>Labour</memberParty>
+            <memberPrinted>Wes Streeting</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/29">
+            <member>
+               <item href="http://data.parliament.uk/members/4642">
+                  <label>Biography information for Mr Paul Sweeney</label>
+               </item>
+            </member>
+            <memberParty>Labour (Co-op)</memberParty>
+            <memberPrinted>Mr Paul Sweeney</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/3">
+            <member>
+               <item href="http://data.parliament.uk/members/4420">
+                  <label>Biography information for Gavin Newlands</label>
+               </item>
+            </member>
+            <memberParty>Scottish National Party</memberParty>
+            <memberPrinted>Gavin Newlands</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/30">
+            <member>
+               <item href="http://data.parliament.uk/members/1383">
+                  <label>Biography information for Mark Tami</label>
+               </item>
+            </member>
+            <memberParty>Labour</memberParty>
+            <memberPrinted>Mark Tami</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/31">
+            <member>
+               <item href="http://data.parliament.uk/members/4479">
+                  <label>Biography information for Nick Thomas-Symonds</label>
+               </item>
+            </member>
+            <memberParty>Labour</memberParty>
+            <memberPrinted>Nick Thomas-Symonds</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/32">
+            <member>
+               <item href="http://data.parliament.uk/members/163">
+                  <label>Biography information for Stephen Timms</label>
+               </item>
+            </member>
+            <memberParty>Labour</memberParty>
+            <memberPrinted>Stephen Timms</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/33">
+            <member>
+               <item href="http://data.parliament.uk/members/4523">
+                  <label>Biography information for Catherine West</label>
+               </item>
+            </member>
+            <memberParty>Labour</memberParty>
+            <memberPrinted>Catherine West</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/34">
+            <member>
+               <item href="http://data.parliament.uk/members/62">
+                  <label>Biography information for Dr Alan Whitehead</label>
+               </item>
+            </member>
+            <memberParty>Labour</memberParty>
+            <memberPrinted>Dr Alan Whitehead</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/35">
+            <member>
+               <item href="http://data.parliament.uk/members/4626">
+                  <label>Biography information for Martin Whitfield</label>
+               </item>
+            </member>
+            <memberParty>Labour</memberParty>
+            <memberPrinted>Martin Whitfield</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/36">
+            <member>
+               <item href="http://data.parliament.uk/members/4385">
+                  <label>Biography information for Dr Philippa Whitford</label>
+               </item>
+            </member>
+            <memberParty>Scottish National Party</memberParty>
+            <memberPrinted>Dr Philippa Whitford</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/37">
+            <member>
+               <item href="http://data.parliament.uk/members/4666">
+                  <label>Biography information for Dr Paul Williams</label>
+               </item>
+            </member>
+            <memberParty>Labour</memberParty>
+            <memberPrinted>Dr Paul Williams</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/38">
+            <member>
+               <item href="http://data.parliament.uk/members/3976">
+                  <label>Biography information for Chris Williamson</label>
+               </item>
+            </member>
+            <memberParty>Labour</memberParty>
+            <memberPrinted>Chris Williamson</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/39">
+            <member>
+               <item href="http://data.parliament.uk/members/1440">
+                  <label>Biography information for Pete Wishart</label>
+               </item>
+            </member>
+            <memberParty>Scottish National Party</memberParty>
+            <memberPrinted>Pete Wishart</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/4">
+            <member>
+               <item href="http://data.parliament.uk/members/4371">
+                  <label>Biography information for Brendan O'Hara</label>
+               </item>
+            </member>
+            <memberParty>Scottish National Party</memberParty>
+            <memberPrinted>Brendan O'Hara</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/40">
+            <member>
+               <item href="http://data.parliament.uk/members/4598">
+                  <label>Biography information for Mohammad Yasin</label>
+               </item>
+            </member>
+            <memberParty>Labour</memberParty>
+            <memberPrinted>Mohammad Yasin</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/41">
+            <member>
+               <item href="http://data.parliament.uk/members/172">
+                  <label>Biography information for Ms Diane Abbott</label>
+               </item>
+            </member>
+            <memberParty>Labour</memberParty>
+            <memberPrinted>Ms Diane Abbott</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/42">
+            <member>
+               <item href="http://data.parliament.uk/members/4212">
+                  <label>Biography information for Debbie Abrahams</label>
+               </item>
+            </member>
+            <memberParty>Labour</memberParty>
+            <memberPrinted>Debbie Abrahams</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/43">
+            <member>
+               <item href="http://data.parliament.uk/members/4138">
+                  <label>Biography information for Rushanara Ali</label>
+               </item>
+            </member>
+            <memberParty>Labour</memberParty>
+            <memberPrinted>Rushanara Ali</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/44">
+            <member>
+               <item href="http://data.parliament.uk/members/4486">
+                  <label>Biography information for Hannah Bardell</label>
+               </item>
+            </member>
+            <memberParty>Scottish National Party</memberParty>
+            <memberPrinted>Hannah Bardell</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/45">
+            <member>
+               <item href="http://data.parliament.uk/members/4421">
+                  <label>Biography information for Mhairi Black</label>
+               </item>
+            </member>
+            <memberParty>Scottish National Party</memberParty>
+            <memberPrinted>Mhairi Black</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/46">
+            <member>
+               <item href="http://data.parliament.uk/members/4390">
+                  <label>Biography information for Ian Blackford</label>
+               </item>
+            </member>
+            <memberParty>Scottish National Party</memberParty>
+            <memberPrinted>Ian Blackford</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/47">
+            <member>
+               <item href="http://data.parliament.uk/members/4357">
+                  <label>Biography information for Kirsty Blackman</label>
+               </item>
+            </member>
+            <memberParty>Scottish National Party</memberParty>
+            <memberPrinted>Kirsty Blackman</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/48">
+            <member>
+               <item href="http://data.parliament.uk/members/4058">
+                  <label>Biography information for Paul Blomfield</label>
+               </item>
+            </member>
+            <memberParty>Labour</memberParty>
+            <memberPrinted>Paul Blomfield</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/49">
+            <member>
+               <item href="http://data.parliament.uk/members/117">
+                  <label>Biography information for Sir Peter Bottomley</label>
+               </item>
+            </member>
+            <memberParty>Conservative</memberParty>
+            <memberPrinted>Sir Peter Bottomley</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/5">
+            <member>
+               <item href="http://data.parliament.uk/members/4515">
+                  <label>Biography information for Kate Osamor</label>
+               </item>
+            </member>
+            <memberParty>Labour (Co-op)</memberParty>
+            <memberPrinted>Kate Osamor</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/50">
+            <member>
+               <item href="http://data.parliament.uk/members/4417">
+                  <label>Biography information for Deidre Brock</label>
+               </item>
+            </member>
+            <memberParty>Scottish National Party</memberParty>
+            <memberPrinted>Deidre Brock</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/51">
+            <member>
+               <item href="http://data.parliament.uk/members/4470">
+                  <label>Biography information for Alan Brown</label>
+               </item>
+            </member>
+            <memberParty>Scottish National Party</memberParty>
+            <memberPrinted>Alan Brown</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/52">
+            <member>
+               <item href="http://data.parliament.uk/members/1583">
+                  <label>Biography information for Ms Lyn Brown</label>
+               </item>
+            </member>
+            <memberParty>Labour</memberParty>
+            <memberPrinted>Lyn Brown</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/53">
+            <member>
+               <item href="http://data.parliament.uk/members/199">
+                  <label>Biography information for Ms Karen Buck</label>
+               </item>
+            </member>
+            <memberParty>Labour</memberParty>
+            <memberPrinted>Ms Karen Buck</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/54">
+            <member>
+               <item href="http://data.parliament.uk/members/301">
+                  <label>Biography information for Richard Burden</label>
+               </item>
+            </member>
+            <memberParty>Labour</memberParty>
+            <memberPrinted>Richard Burden</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/55">
+            <member>
+               <item href="http://data.parliament.uk/members/1489">
+                  <label>Biography information for Dawn Butler</label>
+               </item>
+            </member>
+            <memberParty>Labour</memberParty>
+            <memberPrinted>Dawn Butler</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/56">
+            <member>
+               <item href="http://data.parliament.uk/members/4389">
+                  <label>Biography information for Ruth Cadbury</label>
+               </item>
+            </member>
+            <memberParty>Labour</memberParty>
+            <memberPrinted>Ruth Cadbury</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/57">
+            <member>
+               <item href="http://data.parliament.uk/members/4651">
+                  <label>Biography information for Dan Carden</label>
+               </item>
+            </member>
+            <memberParty>Labour</memberParty>
+            <memberPrinted>Dan Carden</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/58">
+            <member>
+               <item href="http://data.parliament.uk/members/1442">
+                  <label>Biography information for Mr Alistair Carmichael</label>
+               </item>
+            </member>
+            <memberParty>Liberal Democrat</memberParty>
+            <memberPrinted>Mr Alistair Carmichael</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/59">
+            <member>
+               <item href="http://data.parliament.uk/members/4402">
+                  <label>Biography information for Douglas Chapman</label>
+               </item>
+            </member>
+            <memberParty>Scottish National Party</memberParty>
+            <memberPrinted>Douglas Chapman</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/6">
+            <member>
+               <item href="http://data.parliament.uk/members/1474">
+                  <label>Biography information for Albert Owen</label>
+               </item>
+            </member>
+            <memberParty>Labour</memberParty>
+            <memberPrinted>Albert Owen</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/60">
+            <member>
+               <item href="http://data.parliament.uk/members/4610">
+                  <label>Biography information for Bambos Charalambous</label>
+               </item>
+            </member>
+            <memberParty>Labour</memberParty>
+            <memberPrinted>Bambos Charalambous</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/61">
+            <member>
+               <item href="http://data.parliament.uk/members/4419">
+                  <label>Biography information for Joanna Cherry</label>
+               </item>
+            </member>
+            <memberParty>Scottish National Party</memberParty>
+            <memberPrinted>Joanna Cherry</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/62">
+            <member>
+               <item href="http://data.parliament.uk/members/420">
+                  <label>Biography information for Yvette Cooper</label>
+               </item>
+            </member>
+            <memberParty>Labour</memberParty>
+            <memberPrinted>Yvette Cooper</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/63">
+            <member>
+               <item href="http://data.parliament.uk/members/185">
+                  <label>Biography information for Jeremy Corbyn</label>
+               </item>
+            </member>
+            <memberParty>Labour</memberParty>
+            <memberPrinted>Jeremy Corbyn</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/64">
+            <member>
+               <item href="http://data.parliament.uk/members/4368">
+                  <label>Biography information for Neil Coyle</label>
+               </item>
+            </member>
+            <memberParty>Labour</memberParty>
+            <memberPrinted>Neil Coyle</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/65">
+            <member>
+               <item href="http://data.parliament.uk/members/4088">
+                  <label>Biography information for Stella Creasy</label>
+               </item>
+            </member>
+            <memberParty>Labour (Co-op)</memberParty>
+            <memberPrinted>Stella Creasy</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/66">
+            <member>
+               <item href="http://data.parliament.uk/members/1406">
+                  <label>Biography information for Jon Cruddas</label>
+               </item>
+            </member>
+            <memberParty>Labour</memberParty>
+            <memberPrinted>Jon Cruddas</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/67">
+            <member>
+               <item href="http://data.parliament.uk/members/181">
+                  <label>Biography information for John Cryer</label>
+               </item>
+            </member>
+            <memberParty>Labour</memberParty>
+            <memberPrinted>John Cryer</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/68">
+            <member>
+               <item href="http://data.parliament.uk/members/308">
+                  <label>Biography information for Mr Jim Cunningham</label>
+               </item>
+            </member>
+            <memberParty>Labour</memberParty>
+            <memberPrinted>Mr Jim Cunningham</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/69">
+            <member>
+               <item href="http://data.parliament.uk/members/188">
+                  <label>Biography information for Sir Edward Davey</label>
+               </item>
+            </member>
+            <memberParty>Liberal Democrat</memberParty>
+            <memberPrinted>Sir Edward Davey</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/7">
+            <member>
+               <item href="http://data.parliament.uk/members/4003">
+                  <label>Biography information for Teresa Pearce</label>
+               </item>
+            </member>
+            <memberParty>Labour</memberParty>
+            <memberPrinted>Teresa Pearce</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/70">
+            <member>
+               <item href="http://data.parliament.uk/members/1398">
+                  <label>Biography information for Wayne David</label>
+               </item>
+            </member>
+            <memberParty>Labour</memberParty>
+            <memberPrinted>Wayne David</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/71">
+            <member>
+               <item href="http://data.parliament.uk/members/4488">
+                  <label>Biography information for Martyn Day</label>
+               </item>
+            </member>
+            <memberParty>Scottish National Party</memberParty>
+            <memberPrinted>Martyn Day</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/72">
+            <member>
+               <item href="http://data.parliament.uk/members/4676">
+                  <label>Biography information for Marsha De Cordova</label>
+               </item>
+            </member>
+            <memberParty>Labour</memberParty>
+            <memberPrinted>Marsha De Cordova</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/73">
+            <member>
+               <item href="http://data.parliament.uk/members/4433">
+                  <label>Biography information for Thangam Debbonaire</label>
+               </item>
+            </member>
+            <memberParty>Labour</memberParty>
+            <memberPrinted>Thangam Debbonaire</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/74">
+            <member>
+               <item href="http://data.parliament.uk/members/4374">
+                  <label>Biography information for Martin Docherty-Hughes</label>
+               </item>
+            </member>
+            <memberParty>Scottish National Party</memberParty>
+            <memberPrinted>Martin Docherty-Hughes</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/75">
+            <member>
+               <item href="http://data.parliament.uk/members/4657">
+                  <label>Biography information for Anneliese Dodds</label>
+               </item>
+            </member>
+            <memberParty>Labour (Co-op)</memberParty>
+            <memberPrinted>Anneliese Dodds</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/76">
+            <member>
+               <item href="http://data.parliament.uk/members/4264">
+                  <label>Biography information for Stephen Doughty</label>
+               </item>
+            </member>
+            <memberParty>Labour (Co-op)</memberParty>
+            <memberPrinted>Stephen Doughty</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/77">
+            <member>
+               <item href="http://data.parliament.uk/members/252">
+                  <label>Biography information for Dr David Drew</label>
+               </item>
+            </member>
+            <memberParty>Labour (Co-op)</memberParty>
+            <memberPrinted>Dr David Drew</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/78">
+            <member>
+               <item href="http://data.parliament.uk/members/4616">
+                  <label>Biography information for Rosie Duffield</label>
+               </item>
+            </member>
+            <memberParty>Labour</memberParty>
+            <memberPrinted>Rosie Duffield</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/79">
+            <member>
+               <item href="http://data.parliament.uk/members/3943">
+                  <label>Biography information for Jonathan Edwards</label>
+               </item>
+            </member>
+            <memberParty>Plaid Cymru</memberParty>
+            <memberPrinted>Jonathan Edwards</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/8">
+            <member>
+               <item href="http://data.parliament.uk/members/4520">
+                  <label>Biography information for Matthew Pennycook</label>
+               </item>
+            </member>
+            <memberParty>Labour</memberParty>
+            <memberPrinted>Matthew Pennycook</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/80">
+            <member>
+               <item href="http://data.parliament.uk/members/165">
+                  <label>Biography information for Clive Efford</label>
+               </item>
+            </member>
+            <memberParty>Labour</memberParty>
+            <memberPrinted>Clive Efford</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/81">
+            <member>
+               <item href="http://data.parliament.uk/members/484">
+                  <label>Biography information for Dame Louise Ellman</label>
+               </item>
+            </member>
+            <memberParty>Labour (Co-op)</memberParty>
+            <memberPrinted>Mrs Louise Ellman</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/82">
+            <member>
+               <item href="http://data.parliament.uk/members/1591">
+                  <label>Biography information for Tim Farron</label>
+               </item>
+            </member>
+            <memberParty>Liberal Democrat</memberParty>
+            <memberPrinted>Tim Farron</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/83">
+            <member>
+               <item href="http://data.parliament.uk/members/478">
+                  <label>Biography information for Frank Field</label>
+               </item>
+            </member>
+            <memberParty>Labour</memberParty>
+            <memberPrinted>Frank Field</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/84">
+            <member>
+               <item href="http://data.parliament.uk/members/197">
+                  <label>Biography information for Jim Fitzpatrick</label>
+               </item>
+            </member>
+            <memberParty>Labour</memberParty>
+            <memberPrinted>Jim Fitzpatrick</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/85">
+            <member>
+               <item href="http://data.parliament.uk/members/4378">
+                  <label>Biography information for Colleen Fletcher</label>
+               </item>
+            </member>
+            <memberParty>Labour</memberParty>
+            <memberPrinted>Colleen Fletcher</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/86">
+            <member>
+               <item href="http://data.parliament.uk/members/4491">
+                  <label>Biography information for Vicky Foxcroft</label>
+               </item>
+            </member>
+            <memberParty>Labour</memberParty>
+            <memberPrinted>Vicky Foxcroft</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/87">
+            <member>
+               <item href="http://data.parliament.uk/members/4571">
+                  <label>Biography information for Gill Furniss</label>
+               </item>
+            </member>
+            <memberParty>Labour</memberParty>
+            <memberPrinted>Gill Furniss</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/88">
+            <member>
+               <item href="http://data.parliament.uk/members/4614">
+                  <label>Biography information for Hugh Gaffney</label>
+               </item>
+            </member>
+            <memberParty>Labour</memberParty>
+            <memberPrinted>Hugh Gaffney</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/89">
+            <member>
+               <item href="http://data.parliament.uk/members/184">
+                  <label>Biography information for Mike Gapes</label>
+               </item>
+            </member>
+            <memberParty>Labour (Co-op)</memberParty>
+            <memberPrinted>Mike Gapes</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/9">
+            <member>
+               <item href="http://data.parliament.uk/members/4682">
+                  <label>Biography information for Luke Pollard</label>
+               </item>
+            </member>
+            <memberParty>Labour (Co-op)</memberParty>
+            <memberPrinted>Luke Pollard</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/90">
+            <member>
+               <item href="http://data.parliament.uk/members/146">
+                  <label>Biography information for Barry Gardiner</label>
+               </item>
+            </member>
+            <memberParty>Labour</memberParty>
+            <memberPrinted>Barry Gardiner</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/91">
+            <member>
+               <item href="http://data.parliament.uk/members/4662">
+                  <label>Biography information for Ruth George</label>
+               </item>
+            </member>
+            <memberParty>Labour</memberParty>
+            <memberPrinted>Ruth George</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/92">
+            <member>
+               <item href="http://data.parliament.uk/members/4434">
+                  <label>Biography information for Stephen Gethins</label>
+               </item>
+            </member>
+            <memberParty>Scottish National Party</memberParty>
+            <memberPrinted>Stephen Gethins</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/93">
+            <member>
+               <item href="http://data.parliament.uk/members/4435">
+                  <label>Biography information for Patricia Gibson</label>
+               </item>
+            </member>
+            <memberParty>Scottish National Party</memberParty>
+            <memberPrinted>Patricia Gibson</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/94">
+            <member>
+               <item href="http://data.parliament.uk/members/4603">
+                  <label>Biography information for Preet Kaur Gill</label>
+               </item>
+            </member>
+            <memberParty>Labour (Co-op)</memberParty>
+            <memberPrinted>Preet Kaur Gill</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/95">
+            <member>
+               <item href="http://data.parliament.uk/members/304">
+                  <label>Biography information for Mr Roger Godsiff</label>
+               </item>
+            </member>
+            <memberParty>Labour</memberParty>
+            <memberPrinted>Mr Roger Godsiff</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/96">
+            <member>
+               <item href="http://data.parliament.uk/members/4432">
+                  <label>Biography information for Patrick Grady</label>
+               </item>
+            </member>
+            <memberParty>Scottish National Party</memberParty>
+            <memberPrinted>Patrick Grady</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/97">
+            <member>
+               <item href="http://data.parliament.uk/members/4466">
+                  <label>Biography information for Peter Grant</label>
+               </item>
+            </member>
+            <memberParty>Scottish National Party</memberParty>
+            <memberPrinted>Peter Grant</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/98">
+            <member>
+               <item href="http://data.parliament.uk/members/4365">
+                  <label>Biography information for Neil Gray</label>
+               </item>
+            </member>
+            <memberParty>Scottish National Party</memberParty>
+            <memberPrinted>Neil Gray</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+         <item href="http://data.parliament.uk/resources/865099/vote/99">
+            <member>
+               <item href="http://data.parliament.uk/members/4120">
+                  <label>Biography information for Kate Green</label>
+               </item>
+            </member>
+            <memberParty>Labour</memberParty>
+            <memberPrinted>Kate Green</memberPrinted>
+            <type>
+               <item href="http://data.parliament.uk/schema/parl#AyeVote"/>
+            </type>
+         </item>
+      </vote>
+   </primaryTopic>
+   <type>
+      <item href="http://purl.org/linked-data/api/vocab#ItemEndpoint"/>
+      <item href="http://purl.org/linked-data/api/vocab#Page"/>
+   </type>
+</result>
