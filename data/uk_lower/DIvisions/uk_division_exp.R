@@ -131,3 +131,11 @@ out_div_exp <- out %>%
   mutate(observation_path = division_path) %>%
   arrange(parliament_number, session_number, chamber_number, division_number) %>%
   mutate(observation_number = 1:nrow(out))
+
+# data output
+div_exp <- out_div_exp %>%
+  select(observation_path, parliament_path, session_path, chamber_path, division_path, vote_path,
+         observation_number, parliament_number, session_number, chamber_number, division_number, vote_number,
+         division_date = date_char, member_name, member_ID, constituency_name, constituency_ID, yea, nay)
+
+write.csv(div_exp, "uk_lower_divisions_expanded.csv")
