@@ -5,7 +5,8 @@ setwd("~/GitHub/CompLegFall2019/data/us_upper_congress/Bill")
 rm(list=ls())
 # detach all libraries
 detachAllPackages <- function() {
-  basic.packages <- c("package:stats","package:graphics","package:grDevices","package:utils","package:datasets","package:methods","package:base")
+  basic.packages <- c("package:stats","package:graphics","package:grDevices","package:utils",
+                      "package:datasets","package:methods","package:base")
   package.list <- search()[ifelse(unlist(gregexpr("package:",search()))==1,TRUE,FALSE)]
   package.list <- setdiff(package.list,basic.packages)
   if (length(package.list)>0)  for (package in package.list) detach(package, character.only=TRUE)
@@ -36,7 +37,7 @@ datalist = list()
 hr_mem <- read.csv("../Member/us_house_member.csv")
 
 # Create index of bill number
-observation_number = 0
+obs_number = 0
 
 # text available starting from the 101th congress
 # Loop through congress and bills
@@ -56,32 +57,6 @@ for (cong in 101:116) {
       str_extract(".+\\d+[th|rd|nd|st]") %>%
       str_remove(paste0(cong,"[th|rd|nd|st]$"))
     
-    # Bill Type
-    bill_type = "bill"
-    
-    # for now, the constructed url only contains house bills
-    # but in a case that the loop contains all bill types, use the following code
-    # 
-    # type <- bill_title%>%
-    #   str_remove("\\d+.+")
-    # bill_type <- type %>%
-    #   str_replace("H.R.|S.", "Bills") %>%
-    #   str_replace("H.Amdt.|S.Amdt.", "Amendments") %>%
-    #   str_replace("H.Res.|S.Res.", "Resolutions") %>%
-    #   str_replace("H.J.Res.|S.J.Res.", "Joint Resolutions") %>%
-    #   str_replace("H.Con.Res|S.Con.Res.", "Concurrent Resolutions")
-    
-    # Text
-    bill_text <- paste0(base_url,"/text") %>%
-      read_html() %>%
-      html_node(".generated-html-container")%>%
-      html_text() 
-    
-    # Committees 
-    committee <- base %>%
-      html_node("tr:nth-child(2) td") %>%
-      html_text()
-    
     # Member
     # extract href link of member
     member_base <- base %>%
@@ -100,23 +75,34 @@ for (cong in 101:116) {
     
     # state and district
     consti <- member %>%
-      html_nodes(".lateral01 td") %>%
+      html_nodes("td") %>%
       html_text()
-    state <- consti[1]
-    district <- consti[2]%>%
-      str_extract("\\d+")%>%
+    consti <- consti[2]
+    state <- str_split(consti,",")[[1]][1]
+    district <- str_split(str_split(consti,",")[[1]][2]," ")[[1]][3] %>%
       as.numeric()
     
     # member ID
     member_id <- hr_mem$member_ID[which(hr_mem$full_name==member_name & hr_mem$district==district)]
+    if(is_empty(member_id)){member_id = "na "}
     
-    # date introduced
-    date <- paste0(base_url,"/actions") %>%
+    #event
+    event_date <- paste0(base_url,"/all-actions") %>%
       read_html() %>%
-      html_nodes(".date") %>%
-      html_text() %>%
-      tail(n = 1) %>%
-      mdy()
+      html_nodes("td.date") %>%
+      html_text()
+    event_chamber <- paste0(base_url,"/all-actions") %>%
+      read_html() %>%
+      html_nodes(".date+ td") %>%
+      html_text()
+    event_description <- paste0(base_url,"/all-actions") %>%
+      read_html() %>%
+      html_nodes("td.actions") %>%
+      html_text()
+    
+    # number of events
+    evenum <- length(event_date)
+    event_number = 1:evenum
     
     # chamber number
     # use 1 for lower house - house of rep
@@ -124,7 +110,10 @@ for (cong in 101:116) {
     
     # bill number
     bill_number = i
-    observation_number = observation_number+1
+    
+    # observation
+    observation_number = obs_number:(obs_number+evenum-1)
+    obs_number = obs_number + evenum
     
     # sort
     congress_path = paste0("/congress-", cong)
@@ -133,9 +122,11 @@ for (cong in 101:116) {
     observation_path = bill_path
     
     # construct data frame
-    df = data.frame(date, bill_title, bill_type, bill_text, member_name, member_id, state, district, committee, 
-                    congress = cong, chamber_number, bill_number, observation_number,
-                    congress_path, chamber_path, bill_path, observation_path, stringsAsFactors = FALSE)
+    df = data.frame(bill_title, member_name, member_id, state, district, 
+                    event_date, event_chamber, event_description, 
+                    congress_number = cong, chamber_number, bill_number, event_number, observation_number,
+                    congress_path, chamber_path, bill_path, observation_path, stringsAsFactors = FALSE) %>%
+      mutate(event_path = paste0(bill_path,"/event-", event_number))
     dflist[[i]] <- df
   }
   dat = do.call(rbind, datalist)
@@ -144,5 +135,5 @@ for (cong in 101:116) {
 house_bill = do.call(rbind, datalist)
 
 # Data output
-write.csv(house_bill, "us_house_bill.csv")
+write.csv(house_bill, "us_house_bill_events.csv")
 
